@@ -1,0 +1,40 @@
+body {
+    background-color: #f4f4f4;
+}
+
+.card-filme {
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.card-filme:hover {
+    transform: scale(1.03);
+}
+
+.card-filme img {
+    height: 400px;
+    object-fit: cover;
+}
+
+#minhasSeriesBtn {
+    position: absolute;
+    right: 1.25rem;
+    top: 1.25rem;
+    background-color: #000 !important;
+    border-color: #000 !important;
+    color: #fff !important;
+    box-shadow: none !important;
+}
+
+#voltarCatalogoBtn {
+    position: absolute;
+    right: 1.25rem;
+    top: 1.25rem;
+}
+
+#voltarCatalogoBtn {
+    background-color: #000 !important;
+    border-color: #000 !important;
+    color: #fff !important;
+    box-shadow: none !important;
+}
